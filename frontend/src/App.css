@@ -1,0 +1,12 @@
+.textContainer {
+  width: 100wv;
+}
+
+.app {
+  width: 80vw;
+  margin: auto;
+}
+.textContainer > h3 {
+  color: #000;
+  text-align: center;
+}

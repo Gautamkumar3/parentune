@@ -1,0 +1,69 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.monthlyItem {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0px;
+  height: 25px;
+  color: #464646;
+}
+
+.btn {
+  background: #377e8b;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.claims {
+  height: 50px;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.btnContainer {
+  height: 50px;
+  color: #fff;
+}
+
+.btnContainer h4 {
+  height: 22px;
+  margin: 0;
+  padding: 0;
+}
+.taggedAs {
+  margin: 0;
+  padding: 0;
+  font-size: 8px;
+  font-weight: 300;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.cost {
+  margin: 0;
+  padding: 0;
+  font-size: 8px;
+}
